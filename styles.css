@@ -9,6 +9,33 @@ body {
     background-size: cover;
 }
 
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    box-shadow: 0 0 20px;
+    /* outline-color: black;
+    outline-width: 3px;
+    outline-style: solid; */
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+#input-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#grid-input {
+    border-radius: 10px;
+}
+
+#grid-button {
+    margin-left: 5px;
+    padding: 3px 7px;
+}
+
 #container {
     background-color: white;
     display: flex;
@@ -16,7 +43,7 @@ body {
     width: 500px;
     height: 500px;
     border: solid 10px burlywood;
-    margin: 15vh auto 0;
+    margin: 0 auto 0;
     box-shadow: 0 0 20px;
 }
 
