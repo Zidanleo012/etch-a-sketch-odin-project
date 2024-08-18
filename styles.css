@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/scenery.webp);
+    background-size: cover;
+}
+
+#container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    border: solid 10px burlywood;
+    margin: 15vh auto 0;
+    box-shadow: 0 0 20px;
+}
+
+.boxColumn {
+    display: flex;
+    flex: 1;
+}
+
+.box {
+    flex: 1;
+}
+
+.black {
+    background-color: black;
+}
