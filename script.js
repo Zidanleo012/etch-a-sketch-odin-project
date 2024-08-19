@@ -3,7 +3,6 @@ let gridSize = prompt("enter Grid size:");
 
 const gridInput = document.querySelector('#grid-input')
 const gridButton = document.querySelector('#grid-button')
-gridInput.focus()
 
 function verifySize(gridSize) {
     while (gridSize > 100 || gridSize < 3) {
@@ -27,12 +26,6 @@ function setGridSize(size) {
     }
 
     const boxes = document.querySelectorAll('.box');
-    // boxes.forEach(box => {
-    //     let op = 0;
-    //     box.addEventListener('mouseenter', e => {
-    //         e.target.style.backgroundColor = `rgb(0 0 0 / ${op += 10}%)`;
-    //     })
-    // })
     boxes.forEach(box => {
         let op = 15;
         box.addEventListener('mouseenter', e => {
